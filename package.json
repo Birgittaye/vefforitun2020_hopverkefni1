@@ -1,0 +1,32 @@
+{
+  "name": "vefforitun2020_hopverkefni1",
+  "version": "1.0.0",
+  "description": "Hópverkefni 1",
+  "main": "index.js",
+  "scripts": {
+    "sass-nomap": "node-sass styles.scss styles.css",
+    "browser-sync": "browser-sync start --server",
+    "sass": "node-sass --source-map-embed styles.scss styles.css",
+    "sass-watch": "node-sass --source-map-embed --watch styles.scss --recursive styles.css",
+    "dev": "concurrently npm:sass-watch npm:browser-sync",
+    "lint": "stylelint styles.scss ./**/*.scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Birgittaye/vefforitun2020_hopverkefni1.git"
+  },
+  "author": "bye1, ars98, vmp2, sbm11",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Birgittaye/vefforitun2020_hopverkefni1/issues"
+  },
+  "homepage": "https://github.com/Birgittaye/vefforitun2020_hopverkefni1#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "concurrently": "^5.3.0",
+    "node-sass": "^4.14.1",
+    "stylelint": "^13.7.2",
+    "stylelint-config-sass-guidelines": "^7.1.0",
+    "stylelint-config-standard": "^20.0.0"
+  }
+}
