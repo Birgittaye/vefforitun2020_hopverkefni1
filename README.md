@@ -8,7 +8,7 @@ til að setja inn á git: "git push origin main"
 
 bye1, Birgitta
 
-, Jóhann
+jcs3, Jóhann Chanse Sigurðsson
 
 sbm11, Sigríður
 
