@@ -2,13 +2,13 @@
 
 keyrsla: "npm run dev"
 
-til að setja inn á git: "git push orign main"
+til að setja inn á git: "git push origin main"
 
 # höfundir: 
 
-ars98, Arnar
-
 bye1, Birgitta
+
+, Jóhann
 
 sbm11, Sigríður
 
