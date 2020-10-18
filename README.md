@@ -4,13 +4,13 @@ keyrsla: "npm run dev"
 
 til að setja inn á git: "git push origin main"
 
-# höfundir: 
+# höfundar: 
 
 bye1, Birgitta
 
-, Jóhann
+jcs3, Jóhann Chanse Sigurðsson
 
-sbm11, Sigríður
+sbm11, Sigríður digitalsigga
 
 vmp2, Valur
 
