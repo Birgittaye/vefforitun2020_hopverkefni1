@@ -6,7 +6,7 @@ til að setja inn á git: "git push origin main"
 
 # höfundar: 
 
-bye1, Birgitta
+bye1, Birgitta, birgittaye
 
 jcs3, Jóhann Chanse Sigurðsson
 
