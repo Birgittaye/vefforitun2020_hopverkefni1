@@ -7,8 +7,10 @@
     "sass-nomap": "node-sass styles.scss styles.css",
     "browser-sync": "browser-sync start --server",
     "sass": "node-sass --source-map-embed styles.scss styles.css",
-    "sass-watch": "node-sass --source-map-embed --watch *.scss --recursive styles.css",
+    "sass-watch": "node-sass --source-map-embed --watch styles.scss --recursive styles.css",
+    "sass-watch-mac": "node-sass --source-map-embed --watch *.scss --recursive styles.css",
     "dev": "concurrently npm:sass-watch npm:browser-sync",
+    "dev-mac": "concurrently npm:sass-watch-mac npm:browser-sync",
     "lint": "stylelint styles.scss ./**/*.scss"
   },
   "repository": {
