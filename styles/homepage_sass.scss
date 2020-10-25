@@ -1,11 +1,14 @@
 // config
 $color-white: #FAFAFA;
+$color-pure-white: #FFFFFF;
 $color-light-grey: #9B9B9B;
 $color-dark-grey: #5E5B69;
 $color-orange: #E3CDB1;
 $color-beige: #F7F1EB;
 
 $base-font-size: 16px;
+$button-height: 3.25em;
+$button-width: 15.625em;
 
 // entire page (generic tags)
 * {
@@ -26,18 +29,19 @@ h1, h2, h3, h4 {
   font-family: 'Playfair Display';
 }
 
-img {
-  object-fit: contain;
+.check-out:before {
+  content: "Check out our ";
+  color: $color-light-grey;
 }
 
 button {
 	border: 1px solid $color-orange;
 	box-sizing: border-box;
 
-	width: 15.625em;
-	height: 3.25em;
+	width: $button-width;
+	height: $button-height;
 
-	background-color: $color-white;
+	background-color: transparent;
 	color: $color-orange;
 }
 
@@ -47,14 +51,9 @@ a {
 }
 
 // entire page (classes)
-.color-light-grey {
-	color: $color-light-grey;
-}
-
 .color-dark-grey {
 	color: $color-dark-grey;
 }
-
 
 .center {
 	display: block;
@@ -65,7 +64,12 @@ a {
 .flex-column {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+
+  > * {
+  	margin-top: 0.5em;
+  	margin-bottom: 0.5em;
+  }
 }
 
 .flex-row {
@@ -74,29 +78,63 @@ a {
   justify-content: space-between;
 }
 
-.col-50 {
-	width: calc(50% - 1em);
+
+// header / announcement
+.header {
+  justify-content: center;
+  > * {
+    width: calc(35% - 1em);
+  }
+
+  > img {
+  	object-fit: scale-down;
+  }
 }
 
-// header
 header {
   height: 20em;
 }
 
-// latest recipes
-.col-33 {
-  width: calc(33% - 1em);
-  height: 24em;
-}
 
-.col-33 > img {
-	height: 18.125em;
-}
-
-// announcement
 .announcement {
-	background-color: $color-beige;
-	height: 41.875em;
+  background-color: $color-beige;
+  height: 41.875em;
+}
+
+// latest recipes / video recipes
+.card {
+  background-color: $color-pure-white;
+
+  width: calc(33% - 1em);
+  max-height: 24em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  > * {
+  	margin-top: 0.5em;
+  	margin-bottom: 0.5em;
+  }
+
+  > p {
+    color: $color-light-grey;
+    margin: 0.5em;
+  }
+  > img {
+  	max-height: 18.125em;
+  	object-fit: fill;
+  }
+  > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.5em;
+  }
+
+  > .wide-img {
+  	max-height: 14.375em;
+  }
 }
 
 
