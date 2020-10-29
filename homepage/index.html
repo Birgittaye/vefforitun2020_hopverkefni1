@@ -8,14 +8,15 @@
   </head>
   <body>
     <!-- header -->
-    <header class="flex-row header">
-      <div class="flex-column">
-        <p><a>Our latest recipe</a></p>
-        <h1>Pumpkin Pie</h1>
-        <p class="color-dark-grey">Pumpkin pie is a sweet dessert pie with a spiced, pumpkin-based custard filling. The pumpkin is a symbol of harvest time, and pumpkin pie is often eaten during the fall and early winter.</p>
-        <button>See more</button>
+    <header>
+      <div>
+        <div class="flex-column">
+          <p><a>Our latest recipe</a></p>
+          <h1>Pumpkin Pie</h1>
+          <p class="color-dark-grey to-hide">Pumpkin pie is a sweet dessert pie with a spiced, pumpkin-based custard filling. The pumpkin is a symbol of harvest time, and pumpkin pie is often eaten during the fall and early winter.</p>
+          <button>more</button>
+        </div>
       </div>
-      <img src="../img/Image-6.png">
     </header>
     <main>
       <!-- Check out latest recipies -->
@@ -25,7 +26,7 @@
 
         <div class="flex-row"> <!-- row start -->
 
-          <div class="card"> <!-- BOX-->
+          <div class="card flex-column"> <!-- BOX-->
             <img src="../img/Image-17.png">
             <p>September</p>
             <div>
@@ -34,7 +35,7 @@
             </div>
           </div>
 
-          <div class="card"> <!-- BOX-->
+          <div class="card flex-column"> <!-- BOX-->
             <img src="../img/Image-17.png">
             <p>September</p>
             <div>
@@ -43,38 +44,7 @@
             </div>
           </div>
 
-          <div class="card"> <!-- BOX-->
-            <img src="../img/Image-17.png">
-            <p>September</p>
-            <div>
-              <h3>Lax Sushi Rolls</h3>
-              <p><a>Read More</a></p>
-            </div>
-          </div>
-
-        </div> <!-- row end -->
-
-        <div class="flex-row"> <!-- row start -->
-
-          <div class="card"> <!-- BOX-->
-            <img src="../img/Image-17.png">
-            <p>September</p>
-            <div>
-              <h3>Lax Sushi Rolls</h3>
-              <p><a>Read More</a></p>
-            </div>
-          </div>
-
-          <div class="card"> <!-- BOX-->
-            <img src="../img/Image-17.png">
-            <p>September</p>
-            <div>
-              <h3>Lax Sushi Rolls</h3>
-              <p><a>Read More</a></p>
-            </div>
-          </div>
-
-          <div class="card"> <!-- BOX-->
+          <div class="card flex-column"> <!-- BOX-->
             <img src="../img/Image-17.png">
             <p>September</p>
             <div>
@@ -85,16 +55,50 @@
 
         </div> <!-- row end -->
 
-        <button class="center">See more</button>
+        <div class="flex-row to-hide"> <!-- row start -->
+
+          <div class="card flex-column"> <!-- BOX-->
+            <img src="../img/Image-17.png">
+            <p>September</p>
+            <div>
+              <h3>Lax Sushi Rolls</h3>
+              <p><a>Read More</a></p>
+            </div>
+          </div>
+
+          <div class="card flex-column"> <!-- BOX-->
+            <img src="../img/Image-17.png">
+            <p>September</p>
+            <div>
+              <h3>Lax Sushi Rolls</h3>
+              <p><a>Read More</a></p>
+            </div>
+          </div>
+
+          <div class="card flex-column"> <!-- BOX-->
+            <img src="../img/Image-17.png">
+            <p>September</p>
+            <div>
+              <h3>Lax Sushi Rolls</h3>
+              <p><a>Read More</a></p>
+            </div>
+          </div>
+
+        </div> <!-- row end -->
+        <div class="flex-row">
+          <div class="to-hide grey-block"></div>
+          <button class="center">more</button>
+          <div class="to-hide grey-block"></div>
+        </div>
       </section>
       <!-- Our book is out -->
-      <section class="announcement flex-row header">
-        <div class="flex-column">
-          <p><a>Announcement time</a></p>
-          <h1>Our book is out</h1>
-          <p>Pumpkin pie is a sweet dessert pie with a spiced, pumpkin-based custard filling. The pumpkin is a symbol of harvest time, and pumpkin pie is often eaten during the fall and early winter.</p>
-          <button>See more</button>
-        </div>
+      <section class="announcement flex-row">
+          <div class="flex-column">
+            <p><a>Announcement time</a></p>
+            <h1>Our book is out</h1>
+            <p>Pumpkin pie is a sweet dessert pie with a spiced, pumpkin-based custard filling. The pumpkin is a symbol of harvest time, and pumpkin pie is often eaten during the fall and early winter.</p>
+            <button>more</button>
+          </div>
         <img src="../img/Magazine.png">
       </section>
       <!-- Want some action? -->
@@ -103,8 +107,8 @@
         <h2 class="check-out">video recipes</h2>
 
         <div class="flex-row"> <!-- row start -->
-          <div class="card"> <!-- BOX-->
-            <img src="../img/Image-Video.png" class="wide-img">
+          <div class="card flex-column"> <!-- BOX-->
+            <img src="../img/Image-Video.png">
             <p>August 2016</p>
             <div>
               <h3>Legumes printaniers</h3>
@@ -112,8 +116,8 @@
             </div>
           </div>
 
-          <div class="card"> <!-- BOX-->
-            <img src="../img/Image-Video-2.png" class="wide-img">
+          <div class="card flex-column"> <!-- BOX-->
+            <img src="../img/Image-Video-2.png">
             <p>August 2016</p>
             <div>
               <h3>Blossoming cookie</h3>
@@ -121,8 +125,8 @@
             </div>
           </div>
 
-          <div class="card"> <!-- BOX-->
-            <img src="../img/Image-Video-3.png" class="wide-img">
+          <div class="card flex-column to-hide"> <!-- BOX-->
+            <img src="../img/Image-Video-3.png">
             <p>August 2016</p>
             <div>
               <h3>Blueberry pie</h3>
@@ -134,7 +138,11 @@
 
 
 
-        <button class="center">See more</button>
+        <div class="flex-row">
+          <div class="to-hide grey-block"></div>
+          <button class="center">more</button>
+          <div class="to-hide grey-block"></div>
+        </div>
       </section>
     </main>
   </body>
