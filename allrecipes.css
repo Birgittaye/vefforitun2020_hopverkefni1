@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #FFFFFF;
+ }
+
+.grid {
+    border: 2px blue solid;
+    width: 400px;
+    height: 500px;
+    display: grid;
+}
+    
+.box {
+    background-color: beige;
+    color: black;
+    border-radius: 5px;
+    border: 2px dodgerblue solid;
+}    
+
+body {
+    font-size: 16px;
+    background-color: #FAFAFA;
+    font-family: 'Poppins';
+    max-width: calc(100% - 10em);
+    margin: auto; }
+      
+h1, h2, h3, h4 {
+    font-family: 'Playfair Display'; }
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 80px;
+}
+    
+a {
+    color: #E3CDB1;
+    font-size: 1em; 
+    font-family: 'Poppins';
+}
+
+.color-dark-grey {
+    color: #5E5B69;
+}   
+
+.check-out:before {
+    content: "Check out our ";
+    color: #9B9B9B; }
+
+.card {
+    background-color: #FFFFFF;
+    width: calc(33% - 1em);
+    max-height: 24em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+.card > * {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em; }
+.card > p {
+    color: #9B9B9B;
+    margin: 0.5em; }
+.card > img {
+    max-height: 18.125em;
+    object-fit: fill; }
+.card > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.5em; }
+.card > .wide-img {
+    max-height: 14.375em; }
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+.flex-column > * {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em; }   
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+
+.header-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em; 
+}
+
+.header-row-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-row-left {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.header-row-left-up {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-row-left-down {
+    display: flex;    
+    justify-content: flex-start;
+}
