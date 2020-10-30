@@ -1,5 +1,10 @@
-// Sækja allt úr styles/
+// Sækja allt úr styles/ fyrir homepage
 
-@import 'styles/homepage_sass';
+@import 'styles/homepage_config';
+@import 'styles/homepage_global';
+@import 'styles/homepage_header';
+@import 'styles/homepage_announcment';
+@import 'styles/homepage_recipe_card';
+@import 'styles/homepage_media';
 
 
