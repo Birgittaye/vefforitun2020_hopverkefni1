@@ -31,4 +31,29 @@
   .to-show {
   	display: block;
   }
+
+  .announcement {
+  	> img {
+  	  width: 90%;
+  	}
+  	> * {
+  	  margin-bottom: 1em;
+  	}
+  	
+  }
+
+  .header {
+  	background-size: 80em, 35em;
+  	width: 100%;
+  	background-position: right;
+  	> div {
+      margin-top: 5em;
+      max-width: 100%;
+      justify-content: center;
+      > div {
+      	max-width: 100%;
+      	justify-content: flex-start !important;
+      }
+  	}
+  }
 }

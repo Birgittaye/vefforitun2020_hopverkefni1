@@ -2,6 +2,35 @@
 
 // for multiple headers
 
+// homepage header
+
+.header {
+  display: flex;
+  justify-content: center;
+
+  min-height: 35em;
+
+  background-size: 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+
+  > div {
+  	display: flex;
+  	justify-content: flex-start;
+  	max-width: 75%;
+  	> div {
+  		max-width: 50%;
+  	}
+  }
+}
+
+.header-image-1 {
+  background-image: url(../img/Background-Header-Image.png);
+}
+
 // all recipes header
 .header-column {
     display: flex;
