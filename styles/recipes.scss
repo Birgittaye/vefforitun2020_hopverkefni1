@@ -1,3 +1,24 @@
 h3{
     color:black;
 }
+
+.flex-recipes{
+    display: flex;
+}
+
+.ingredient-box{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-flow: column wrap;
+  flex: auto;
+}
+
+.method-box{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 3;
+  flex-flow: column wrap;
+  flex: auto;
+}
