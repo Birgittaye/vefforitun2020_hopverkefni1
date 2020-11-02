@@ -1,0 +1,223 @@
+// config
+$color-white: #FAFAFA;
+$color-pure-white: #FFFFFF;
+$color-light-grey: #9B9B9B;
+$color-dark-grey: #5E5B69;
+$color-orange: #E3CDB1;
+$color-beige: #F7F1EB;
+$color-grey-block: #E7E7E7;
+
+
+$base-font-size: 16px;
+$button-height: 3.25em;
+$button-width: 15.625em;
+
+// entire page (generic tags)
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: $base-font-size;
+  font-family: 'Poppins';
+}
+
+section {
+  padding: 5% 10%;
+  background-color: $color-white;
+  background: linear-gradient(to bottom, $color-pure-white 50%, $color-white 50%);
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display';
+}
+
+button {
+	border: 1px solid $color-orange;
+	box-sizing: border-box;
+
+	width: $button-width;
+	height: $button-height;
+
+	background-color: transparent;
+
+	color: $color-orange;
+
+	&::before {
+		content: "See ";
+		color: $color-orange;
+	}
+
+	&:hover {
+	  background: linear-gradient(to right, $color-orange 49%, transparent 49%);
+	}
+	&:hover::before {
+		color: $color-white;
+	}
+}
+
+a {
+  color: $color-orange;
+  font-size: 1em;
+}
+
+// entire page (classes)
+.check-out:before {
+  content: "Check out our ";
+  color: $color-light-grey;
+}
+
+.color-dark-grey {
+	color: $color-dark-grey;
+}
+
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  > * {
+  	margin-top: 0.5em;
+  	margin-bottom: 0.5em;
+  }
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+// header / announcement
+.header {
+  display: flex;
+  justify-content: center;
+  width: calc(35% - 1em);
+}
+
+header {
+  min-height: 35em;
+
+  background-image: url(../img/Background-Header-Image.png);
+  background-size: 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+
+  > div {
+  	display: flex;
+  	justify-content: flex-start;
+  	max-width: 75%;
+  	> div {
+  		max-width: 50%;
+  	}
+  }
+}
+
+
+.announcement {
+  background-color: $color-beige;
+  background: linear-gradient(to bottom, $color-beige 75%, $color-pure-white 75%);
+  > * {
+  	margin: 1em;
+  }
+  > img {
+  	width: 50%;
+  	height: auto;
+  }
+  > div {
+  	justify-content: flex-start;
+  }
+}
+
+// latest recipes / video recipes
+.card {
+  background-color: $color-pure-white;
+
+  width: calc(33% - 1em);
+
+  > * {
+  	margin-top: 0.5em;
+  	margin-bottom: 0.5em;
+  }
+
+  > p {
+    color: $color-light-grey;
+    margin: 0.5em;
+  }
+
+  > img {
+  	width: 100%;
+  	height: auto;
+  }
+
+  > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.5em;
+  }
+}
+
+.grey-block {
+	background-color: $color-grey-block;
+	height: 1px;
+	width: 33%;
+	align-self: center;
+}
+
+// small screen
+@media (max-width: 800px) {
+  * {
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+  header {
+  	background-size: 80em, 35em;
+  	background-position: right;
+  	> div {
+      margin-top: 5em;
+      max-width: 100%;
+      justify-content: center;
+      > div {
+      	max-width: 100%;
+      	justify-content: flex-start !important;
+      }
+  	}
+  }
+
+  .announcement {
+  	> img {
+  	  width: 90%;
+  	}
+  	> * {
+  	  margin-bottom: 1em;
+  	}
+  	
+  }
+
+  .to-hide {
+    display: none;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .flex-row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .flex-column {
+    text-align: center;
+  }
+
+}
+

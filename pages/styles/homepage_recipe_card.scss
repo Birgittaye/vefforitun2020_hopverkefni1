@@ -1,0 +1,31 @@
+
+@import 'homepage_config';
+
+// latest recipes / video recipes
+.card {
+  background-color: $color-pure-white;
+
+  width: calc(33% - 1em);
+
+  > * {
+  	margin-top: 0.5em;
+  	margin-bottom: 0.5em;
+  }
+
+  > p {
+    color: $color-light-grey;
+    margin: 0.5em;
+  }
+
+  > img {
+  	width: 100%;
+  	height: auto;
+  }
+
+  > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.5em;
+  }
+}
