@@ -1,4 +1,9 @@
 // config
+
+$base-font-size: 16px; 				// used in global to set size of em
+$small-screen-size: 800px; 			// used in media to denote when to change screen size
+
+// colors
 $color-white: #FAFAFA;
 $color-pure-white: #FFFFFF;
 $color-light-grey: #9B9B9B;
@@ -7,7 +12,6 @@ $color-orange: #E3CDB1;
 $color-beige: #F7F1EB;
 $color-grey-block: #E7E7E7;
 
-
-$base-font-size: 16px;
+// button
 $button-height: 3.25em;
 $button-width: 15.625em;

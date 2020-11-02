@@ -1,0 +1,32 @@
+@import 'config';
+
+// for multiple headers
+
+.header-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em; 
+}
+
+.header-row-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-row-left {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.header-row-left-up {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-row-left-down {
+    display: flex;    
+    justify-content: flex-start;
+}

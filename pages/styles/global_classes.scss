@@ -1,0 +1,32 @@
+@import 'config';
+
+// entire page (classes)
+.check-out:before {
+  content: "Check out our ";
+  color: $color-light-grey;
+}
+
+.color-dark-grey {
+	color: $color-dark-grey;
+}
+
+.to-hide {
+	// to hide content on smaller screens
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  /*> * {
+  	margin-top: 0.5em;
+  	margin-bottom: 0.5em;
+  }*/
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

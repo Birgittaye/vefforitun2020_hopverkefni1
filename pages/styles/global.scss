@@ -1,4 +1,4 @@
-@import 'homepage_config';
+@import 'config';
 
 // entire page (generic tags)
 * {
@@ -14,4 +14,13 @@ body {
 
 h1, h2, h3, h4 {
   font-family: 'Playfair Display';
+}
+
+section {
+  padding: 5% 10%;
+  background-color: $color-white;
+}
+
+ul{
+  list-style-type: none;
 }
