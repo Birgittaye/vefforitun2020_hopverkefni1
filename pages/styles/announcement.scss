@@ -1,0 +1,21 @@
+
+@import 'config';
+
+
+@import 'config';
+
+// announcement
+.announcement {
+  background-color: $color-beige;
+  background: linear-gradient(to bottom, $color-beige 75%, $color-pure-white 75%);
+  > * {
+    margin: 1em;
+  }
+  > img {
+    width: 50%;
+    height: auto;
+  }
+  > div {
+    justify-content: flex-start;
+  }
+}

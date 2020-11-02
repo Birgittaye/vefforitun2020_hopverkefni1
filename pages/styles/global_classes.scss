@@ -14,6 +14,10 @@
 	// to hide content on smaller screens
 }
 
+.to-show {
+	display: none; // to show content on smaller
+}
+
 .flex-column {
   display: flex;
   flex-direction: column;
@@ -26,6 +30,12 @@
 }
 
 .flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-row-always{
   display: flex;
   flex-direction: row;
   justify-content: space-between;

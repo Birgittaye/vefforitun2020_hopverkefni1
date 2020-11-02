@@ -10,16 +10,16 @@
 body {
   font-size: $base-font-size;
   font-family: 'Poppins';
+  padding: 0% 10%;
+  background-color: $color-white;
+
 }
 
 h1, h2, h3, h4 {
   font-family: 'Playfair Display';
 }
 
-section {
-  padding: 5% 10%;
-  background-color: $color-white;
-}
+
 
 ul{
   list-style-type: none;
