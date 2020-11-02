@@ -284,58 +284,60 @@ height: 339px;
 left: 0px;
 top: 0px;
 background: #000000;
+max-width: 100%;
 
 }
 
 
+
 #crave{
 position: absolute;
-width: 246.5px;
-height: 26px;
-left: 340px;
-top: 120px;
+width: 15.4%;
+height: 7.7%px;
+left: 21.25%;
+top: 35%;
 font-family: Poppins;
 font-style: normal;
 font-weight: 500;
-font-size: 16px;
-line-height: 24px;
+font-size: 1em;
+line-height: 1.5em;
 display: flex;
 align-items: flex-end;
 color: #E3CDB1;
-
+max-width: 100%;
 }
 
 #newsletter{
 /* Subscribe to our new */
 
 position: absolute;
-width: 565px;
-height: 53px;
-left: 340px;
-top: 140px;
+width: 35%;
+height: 15.6%;
+left: 21.25%;
+top: 41%;
 font-family: Playfair Display;
 font-style: normal;
 font-weight: bold;
-font-size: 40px;
+font-size: 2.5em;
 line-height: 53px;
 display: flex;
 align-items: flex-end;
 color: #FFFFFF;
-
+max-width: 100%;
 
 }
 
 /* Email */
 #email1 {
 position: absolute;
-width: 39px;
-height: 21px;
-left: 1000px;
-top: 90px;
+width: 2.5%;
+height: 1.3%;
+left: 55.5%;
+top: 26.5%;
 font-family: Poppins;
 font-style: normal;
 font-weight: 500;
-font-size: 14px;
+font-size: 0.875em;
 line-height: 21px;
 letter-spacing: 0.8px;
 /* identical to box height */
@@ -343,53 +345,54 @@ display: flex;
 align-items: flex-end;
 
 color: #FFFFFF;
-
+max-width: 100%;
 }
 
 /* Enter your mail here */
 #email2 {
 position: absolute;
-width: 208px;
-height: 29px;
-left: 1000px;
-top: 110px;
+width: 13%;
+height: 0.02%px;
+left: 55.5%;
+top: 32.4%;
 font-family: Playfair Display;
 font-style: normal;
 font-weight: bold;
-font-size: 22px;
+font-size: 1.375em;
 line-height: 29px;
 display: flex;
 align-items: flex-end;
-
+max-width: 100%;
 color: #525252;
 }
 
 
 #e-border{
 position: absolute;
-width: 300px;
-height: 1px;
-left: 1000px;
-top: 140px;
+width: 18.75%;
+height: 0.0625%;
+left: 55.5%;
+top: 41%;
 background: #FFFFFF;
+max-width: 100%;
 }
 
 #email12 {
 position: absolute;
-width: 39px;
-height: 21px;
-left: 1000px;
-top: 170px;
+width: 2.4%;
+height: 1.3%px;
+left: 55.5%;
+top: 50%;
 font-family: Poppins;
 font-style: normal;
 font-weight: 500;
-font-size: 14px;
+font-size: 0.875em;
 line-height: 21px;
 letter-spacing: 0.8px;
 /* identical to box height */
 display: flex;
 align-items: flex-end;
-
+max-width: 100%;
 color: #FFFFFF;
 
 }
@@ -397,26 +400,25 @@ color: #FFFFFF;
 /* Rectangle 5 */
 #e-border2 {
 position: absolute;
-width: 300px;
-height: 1px;
-left: 1000px;
-top: 220px;
-
+width: 18.75%;
+height: 0.3%;
+left: 55.5%;
+top: 65%;
+max-width: 100%;
 background: #E3CDB1;
 }
 
 /* meghan@ueno.co */
 #emaile{
 position: absolute;
-width: 210px;
-height: 29px;
-left: 1000px;
-top: 190px;
-
+width: 13.1%;
+height: 8.5%;
+left: 55.5%;
+top: 56%;
 font-family: Playfair Display;
 font-style: normal;
 font-weight: bold;
-font-size: 22px;
+font-size: 1.375em;
 line-height: 29px;
 display: flex;
 align-items: flex-end;
@@ -428,28 +430,30 @@ color: #FFFFFF;
 /* Rectangle */
 #sub-border {
 position: absolute;
-left: 1400px;
+left: 76.5%;
 right: 0%;
-top: 170px;
+top: 50%;
 bottom: 0%;
 border: 1px solid #E3CDB1;
 box-sizing: border-box;
-width: 250px;
-height: 52px;
+width: 15.6%;
+height: 15%;
+max-width: 100%;
 }
+
 #sub-border p {
 	/* See more */
 
 position: absolute;
-left: 75px;
+left: 30%;
 right: 0%;
 top: 25%;
 bottom: 25%;
-
+max-width: 100%;
 font-family: Poppins;
 font-style: normal;
 font-weight: 500;
-font-size: 16px;
+font-size: 1em;
 line-height: 24px;
 display: flex;
 align-items: flex-end;
@@ -461,15 +465,15 @@ color: #E3CDB1;
 
 a.button1{
 	position: absolute;
-left: 75px;
+left: 30%;
 right: 0%;
 top: 25%;
 bottom: 25%;
-
+max-width: 100%;
 font-family: Poppins;
 font-style: normal;
 font-weight: 500;
-font-size: 16px;
+font-size: 1em;
 line-height: 24px;
 display: flex;
 align-items: flex-end;
@@ -487,20 +491,21 @@ height: 339px;
 left: 0px;
 top: 0px;
 background: #F2F2F2;
-
+max-width: 100%;
 }
 
 #note-border {
 	/* Rectangle 9 */
 
 position: absolute;
-left: 400px;
+left: 25%;
 right: 9.62%;
-top: 50px;
+top: 15%;
 bottom: 99.4%;
 background: #EEEEEE;
-height: 2px;
-width: 1290px;
+height: 0.5%;
+width: 80%;
+max-width: 100%;
 }
 
 /* Come and join us for */
@@ -510,11 +515,11 @@ left: 39.69%;
 right: 40.88%;
 top: 31.12%;
 bottom: 63.75%;
-
+max-width: 100%;
 font-family: Poppins;
 font-style: normal;
 font-weight: normal;
-font-size: 18px;
+font-size: 1.13em;
 line-height: 17px;
 /* identical to box height, or 94% */
 display: flex;
@@ -527,76 +532,79 @@ color: #000000;
 /* Oval */
 #oval1 {
 position: absolute;
-left: 815px;
-top: 160px;
+left: 43%;
+top: 47%;
 width: 40px;
 height: 40px;
 border: 1px solid #E3CDB1;
 border-radius: 50%;
+max-width: 100%;
 }
 
 #oval1 img {
 	/* Fill 1 */
 
 position: absolute;
-left: 11px;
+left: 28%;
 right: 1.27%;
-top: 10.5px;
+top: 28%;
 bottom: 1.27%;
-height: 18px;
-width: 18px;
-
+height: 50%;
+width: 50%;
+max-width: 100%;
 }
 #oval2 {
 position: absolute;
-left: 875px;
-top: 160px;
+left: 46%;
+top: 47%;
 width: 40px;
 height: 40px;
 border: 1px solid #E3CDB1;
 border-radius: 50%;
+max-width: 100%;
 }
 #oval2 img {
 	position: absolute;
-left: 12px;
+left: 28%;
 right: 1.27%;
-top: 9px;
+top: 26%;
 bottom: 1.27%;
-height: 18px;
-width: 15px;
-
+height: 50%;
+width: 45%;
+max-width: 100%;
 
 }
 
 #oval3 {
 position: absolute;
-left: 935px;
-top: 160px;
+left: 49%;
+top: 47%;
 width: 40px;
 height: 40px;
 border: 1px solid #E3CDB1;
 border-radius: 50%;
+max-width: 100%;
 }
 
 #oval3 img {
 	position: absolute;
-left: 10px;
+left: 26%;
 right: 1.27%;
-top: 9px;
+top: 26%;
 bottom: 1.27%;
-height: 18px;
-width: 18px;
+height: 50%;
+width: 50%;
+max-width: 100%;
 
 }
 
 /* yamyam.com */
 #yamyam {
 position: absolute;
-left: 855px;
-right: 46.94%;
-top: 189px;
+left: 45%;
+top: 56%;
 bottom: 30.82%;
-
+max-width: 100%;
 font-family: Poppins;
 font-style: normal;
 font-weight: 300;
@@ -610,4 +618,10 @@ letter-spacing: -0.291667px;
 color: #D0D0D0;
 
 }
+
+
+
+	
+
+
 /*# sourceMappingURL=data:application/json;base64,ewoJInZlcnNpb24iOiAzLAoJImZpbGUiOiAiaG9tZXBhZ2UuY3NzIiwKCSJzb3VyY2VzIjogWwoJCSJob21lcGFnZS5zY3NzIiwKCQkic3R5bGVzL2hvbWVwYWdlX3Nhc3Muc2NzcyIKCV0sCgkibmFtZXMiOiBbXSwKCSJtYXBwaW5ncyI6ICJBQ2VBLEFBQUEsQ0FBQyxDQUFDO0VBQ0EsTUFBTSxFQUFFLENBQUM7RUFDVCxPQUFPLEVBQUUsQ0FBQztFQUNWLFVBQVUsRUFBRSxVQUFVLEdBQ3ZCOztBQUVELEFBQUEsSUFBSSxDQUFDO0VBQ0gsU0FBUyxFQVpNLElBQUk7RUFhbkIsV0FBVyxFQUFFLFNBQVMsR0FDdkI7O0FBRUQsQUFBQSxPQUFPLENBQUM7RUFDTixPQUFPLEVBQUUsTUFBTTtFQUNmLGdCQUFnQixFQTNCSixPQUFPO0VBNEJuQixVQUFVLEVBQUUsb0RBQW1FLEdBQ2hGOztBQUVELEFBQUEsRUFBRSxFQUFFLEVBQUUsRUFBRSxFQUFFLEVBQUUsRUFBRSxDQUFDO0VBQ2IsV0FBVyxFQUFFLGtCQUFrQixHQUNoQzs7QUFFRCxBQUFBLE1BQU0sQ0FBQztFQUNOLE1BQU0sRUFBRSxHQUFHLENBQUMsS0FBSyxDQWhDSCxPQUFPO0VBaUNyQixVQUFVLEVBQUUsVUFBVTtFQUV0QixLQUFLLEVBNUJTLFFBQVE7RUE2QnRCLE1BQU0sRUE5QlMsTUFBTTtFQWdDckIsZ0JBQWdCLEVBQUUsV0FBVztFQUU3QixLQUFLLEVBeENTLE9BQU8sR0FxRHJCO0VBdEJELEFBV0MsTUFYSyxBQVdKLFFBQVEsQ0FBQztJQUNULE9BQU8sRUFBRSxNQUFNO0lBQ2YsS0FBSyxFQTVDUSxPQUFPLEdBNkNwQjtFQWRGLEFBZ0JDLE1BaEJLLEFBZ0JKLE1BQU0sQ0FBQztJQUNOLFVBQVUsRUFBRSx1REFBNkQsR0FDMUU7RUFsQkYsQUFtQkMsTUFuQkssQUFtQkosTUFBTSxBQUFBLFFBQVEsQ0FBQztJQUNmLEtBQUssRUF2RE8sT0FBTyxHQXdEbkI7O0FBR0YsQUFBQSxDQUFDLENBQUM7RUFDQSxLQUFLLEVBeERRLE9BQU87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 */
