@@ -1,17 +1,18 @@
 <html lang="is">
   <head>
     <meta charset="utf-8">
-    <title>Recipe</title>
+    <title>Video Recipe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <script src="scripts.js"></script>
     <nav class="flex-row"> <!-- stand-in for nav -->
       <div class="flex-row-always">
-          <p>yum&yum</p>
-          <a href="javascript:void(0);" onclick="changeNav()">Click Me!</a>
+        <p>yum&yum</p>
+        <a class="to-show" href="javascript:void(0);" onclick="changeNav()">Click Me!</a>
       </div>
-      
+
       <ul class="to-hide" id="nav">
         <li><a href="homepage.html">Home</a></li>
         <li><a href="lates_recipes.html">Recipes</a></li>
@@ -23,58 +24,52 @@
       <div>
         <div class="flex-column">
           <h1>Pumpkin Pie</h1>
+          <div class="flex-row color-orange">
+            <div class="flex-row-always">
+              <img src="img/Level-Icon.svg">
+              <p><bold>Easy</bold> recipe</p>
+            </div>
+            <div class="flex-row-always">
+              <img src="img/Servings-Icon.svg">
+              <p><bold>6</bold> people</p>
+            </div>
+            <div class="flex-row-always">
+              <img src="img/Preparation-Icon.svg">
+              <p><bold>1</bold> hour</p>
+            </div>
+          </div>
           <p class="color-dark-grey to-hide">Pumpkin pie is a sweet dessert pie with a spiced, pumpkin-based custard filling. The pumpkin is a symbol of harvest time, and pumpkin pie is often eaten during the fall and early winter.</p>
         </div>
       </div>
-    
-      
-        
-        <!--<div>Titill vinstra meginn</div>
-        <nav><a href="#">Recipes</a> <a href="#">Videos</a> <a href="#">About Us</a></nav>
-
-        <div>
-          <h1>Pumpkin Pie</h1>
-          <div>Easy Recipe 6 People 1 hour</div>
-
-          Pumpkin pie is a sweet dessert pie with a spiced, pumpkin-based custard filling. The pumpkin is a symbol of harvest time, and pumpkin pie is often eaten during the fall and early winter.
-        </div> -->
-
-        <!-- vantar eitthvað eins og
-          background-image: url(img/background.jpg);
-        i CSS gegnum SCSS/SASS til bera fram bakgrunns mynd-->
-
     </header>
     <main>
-    <!--...-->
-    <div class="flex-row space-between">
-    <section><!--vinstri box-->
-      <h2>Ingredients</h2>
-      <div>
-        <h3>For the dough</h3>
+      <div class="flex-row space-between">
+        <section class="small-space-between"><!--vinstri box-->
+          <h2 class="color-kinda-grey">Ingredients</h2>
+          <div class="small-space-between">
+            <p>For the dough</p>
+            <ul><!--style type none til að fjarlæga bullets frá lista-->
+              <li class="flex-row-always fifty-fifty"><h3 class="color-orange">1</h3><p class="color-kinda-grey"> tbs of water</p></li>
+              <li class="flex-row-always fifty-fifty"><h3 class="color-orange">2</h3><p class="color-kinda-grey"> cups of flour</p></li>
+              <li class="flex-row-always fifty-fifty"><h3 class="color-orange">2</h3><p class="color-kinda-grey"> eggs</p></li>
+              <li class="flex-row-always fifty-fifty"><h3 class="color-orange">1</h3><p class="color-kinda-grey"> cup of sugar</p></li>
+            </ul>
+          </div>
 
-        <ul><!--style type none til að fjarlæga bullets frá lista-->
-          <li>1 tbs of water</li>
-          <li>2 cups of flour</li>
-          <li>2 eggs</li>
-          <li>1 cup of sugar</li>
-        </ul>
-      </div>
-      
-      <div>
-        <h3>For the filling</h3>
+          <div class="small-space-between">
+            <p>For the filling</p>
+            <ul>
+              <li class="flex-row-always fifty-fifty"><h3 class="color-orange">1</h3><p class="color-kinda-grey"> tbs of water</p></li>
+              <li class="flex-row-always fifty-fifty"><h3 class="color-orange">2</h3><p class="color-kinda-grey"> cups of flour</p></li>
+              <li class="flex-row-always fifty-fifty"><h3 class="color-orange">2</h3><p class="color-kinda-grey"> eggs</p></li>
+              <li class="flex-row-always fifty-fifty"><h3 class="color-orange">1</h3><p class="color-kinda-grey"> cup of sugar</p></li>
+            </ul> 
+          </div>
+        </section class="small-space-between">
 
-        <ul>
-          <li>1 tbs of water</li>
-          <li>2 cups of flour</li>
-          <li>2 eggs</li>
-          <li>1 cup of sugar</li>
-        </ul> 
-      </div>
-    </section>
-
-    <section>
-        <h2>The method</h2>
-        <div class="flex-column">
+        <section>
+        <h2 class="color-kinda-grey">The method</h2>
+        <div class="flex-column color-dark-grey">
           <p>
           Wrap the crackers in a tea towel and smash up until fine, breaking up any big bits with your hands, and put them into a large bowl.
           Finely chop the parsley, including the stalks. Add the parsley, mustard, if using, and minced beef to the bowl. Crack in the egg and add a good pinch of salt and pepper.
@@ -90,9 +85,9 @@
           Halve your burger buns and lightly toast them on the griddle or in the pan. Also great with a chopped salad.
           </p>
         </div>
-      
-    </section>
-    </div>
+
+        </section>
+      </div>
 
       <!-- Recipes -->
       <section class="flex-column">
@@ -128,9 +123,6 @@
           </div>
 
         </div> <!-- row end -->
-
-
-
         <div class="flex-row">
           <div class="to-hide grey-block"></div>
           <button class="button-orange">more</button>
@@ -138,33 +130,32 @@
         </div>
       </section>
 
-<footer class="flex-column">
-  <div class="flex-row bg-color-black">
-    <div class="flex-column no-space">
-      <p>Craving more?</p>
-      <h1>Subscribe to our newsletter</h1>
-    </div>
-    <div class="flex-column">
-      <p>Email</p>
-      <input type="email" placeholder="example@email.com"></input>
-    </div>
-    <div class="flex-column flex-center">
-      <button>Subscribe now</button>
-    </div>
-    
-  </div>
-  <div class="flex-column flex-center no-space">
-    <p class="color-black">Come and join us for more recipes</p>
-    <div class="flex-row flex-center">
-      <img title="" src="../img/twitter.png" alt="Twitter Button" width="24" height="24"/>
-      <img title="" src="../img/fcb.png" alt="Facebook button" width="24" height="24"/>
-      <img title="" src="../img/utube.png" alt="Youtube Button" width="24" height="24"/>
-    </div>
-    <p class="color-kinda-grey">yamyam.com</p>
-  </div>
-</footer>
-
     </main>
-    
+
+    <footer class="flex-column">
+      <div class="flex-row bg-color-black">
+        <div class="flex-column no-space">
+          <p>Craving more?</p>
+          <h1>Subscribe to our newsletter</h1>
+        </div>
+        <div class="flex-column">
+          <p>Email</p>
+          <input type="email" placeholder="example@email.com"></input>
+        </div>
+        <div class="flex-column flex-center">
+          <button>Subscribe now</button>
+        </div>
+      </div>
+      <div class="flex-column flex-center no-space">
+        <p class="color-black">Come and join us for more recipes</p>
+        <div class="flex-row flex-center">
+          <img title="" src="../img/twitter.png" alt="Twitter Button" width="24" height="24"/>
+          <img title="" src="../img/fcb.png" alt="Facebook button" width="24" height="24"/>
+          <img title="" src="../img/utube.png" alt="Youtube Button" width="24" height="24"/>
+        </div>
+        <p class="color-kinda-grey">yamyam.com</p>
+      </div>
+    </footer>
+      
   </body>
 </html>

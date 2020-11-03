@@ -2,7 +2,7 @@
 
 // small screen
 @media (max-width: $small-screen-size) {
-  * {
+  main * {
     margin-left: auto;
     margin-right: auto;
   }
@@ -41,7 +41,11 @@
   	}
   	
   }
-
+  .header-image-2 {
+  	background-image: none;
+  	background: linear-gradient(to right, $color-black 25%, $color-black, transparent);
+  	background-size: 100% !important;
+  }
   .header {
   	background-size: 80em, 35em;
   	width: 100%;
@@ -55,5 +59,8 @@
       	justify-content: flex-start !important;
       }
   	}
+  }
+  .fifty-fifty > * {
+  	width: 50%;
   }
 }

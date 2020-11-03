@@ -32,7 +32,7 @@
 }
 
 .header-image-2 {
-  background-image: linear-gradient(to right, $color-black , transparent), url(../img/header_2.png) ;
+  background-image: linear-gradient(to right, $color-black 25%, $color-black, transparent), url(../img/header_2.png) ;
   //background-image: url(../img/header_2.png);
 }
 
