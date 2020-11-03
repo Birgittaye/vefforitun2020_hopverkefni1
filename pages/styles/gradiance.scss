@@ -1,0 +1,6 @@
+
+@import 'config';
+
+.gradiance section {
+  background: linear-gradient(to bottom, $color-pure-white 50%, $color-white 50%);
+}
