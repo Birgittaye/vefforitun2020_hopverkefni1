@@ -1,27 +1,29 @@
 @import 'config';
 
 // entire page (classes)
-.check-out:before {
-  content: "Check out our ";
+.check-out::before {
   color: $color-light-grey;
+  content: 'Check out our ';
 }
 
 .color-dark-grey {
-	color: $color-dark-grey;
+  color: $color-dark-grey;
 }
 
 .color-orange {
-	color: $color-orange;
+  color: $color-orange;
 }
+
 .fifty-fifty {
- 	// change to 50/50 while small
+  // change to 50/50 while small
 }
+
 .to-hide {
-	// to hide content on smaller screens
+  // to hide content on smaller screens
 }
 
 .to-show {
-	display: none; // to show content on smaller
+  display: none; // to show content on smaller
 }
 
 .flex-column {
@@ -30,8 +32,8 @@
   justify-content: center;
 
   > * {
-  	margin-top: 0.5em;
-  	margin-bottom: 0.5em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
   }
 }
 
@@ -41,15 +43,16 @@
   justify-content: space-between;
 }
 
-.flex-row-always{
+.flex-row-always {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.space-between > *{
+.space-between > * {
   margin: 1em;
 }
-.small-space-between > *{
+
+.small-space-between > * {
   margin: 0.5em;
 }

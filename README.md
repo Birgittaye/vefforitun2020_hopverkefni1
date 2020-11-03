@@ -1,7 +1,8 @@
 # vefforitun2020_hopverkefni1
 
-keyrsla: "npm run dev"
-
+keyrsla: 
+"npm run dev" (windows)
+"npm run dev-mac" (mac)
 
 # höfundar: 
 

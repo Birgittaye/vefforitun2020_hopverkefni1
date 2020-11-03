@@ -1,0 +1,63 @@
+@import 'config';
+
+// for multiple headers
+
+// homepage header
+
+.header {
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  min-height: 35em;
+
+  > div {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 75%;
+  }
+}
+
+.header > div > div {
+  max-width: 50%;
+}
+
+.header-image-1 {
+  background-image: url('../img/Background-Header-Image.png');
+}
+
+.header-image-2 {
+  background-image: linear-gradient(to right, $color-black 25%, $color-black, transparent), url('../img/header_2.png');
+  //background-image: url(../img/header_2.png);
+}
+
+// all recipes header
+.header-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
+.header-row-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-row-left {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.header-row-left-up {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header-row-left-down {
+  display: flex;
+  justify-content: flex-start;
+}

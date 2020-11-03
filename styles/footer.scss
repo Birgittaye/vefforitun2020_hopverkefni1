@@ -1,0 +1,58 @@
+
+@import 'config';
+
+footer > * {
+  height: 21.25em;
+}
+
+.bg-color-black {
+  background-color: $color-black;
+  color: $color-pure-white;
+}
+
+.color-black {
+  color: $color-black;
+}
+
+footer p {
+  color: $color-orange;
+}
+
+footer button {
+  background-color: transparent;
+  border: 1px solid $color-orange;
+  box-sizing: border-box;
+  color: $color-orange;
+  height: $button-height;
+  width: $button-width;
+}
+
+.flex-center {
+  justify-content: center !important;
+  text-align: center;
+
+  > * {
+    margin: 1em;
+  }
+}
+
+footer input {
+  background-color: $color-black;
+  border: unset;
+  border-bottom: 1px solid $color-pure-white;
+}
+
+.no-space {
+  justify-content: center;
+
+  > * {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+}
+
+.color-kinda-grey {
+  color: $color-kinda-grey;
+}

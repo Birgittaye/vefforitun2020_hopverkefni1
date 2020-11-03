@@ -9,13 +9,9 @@
     "sass": "node-sass --source-map-embed styles.scss styles.css",
     "sass-watch": "node-sass --source-map-embed --watch styles.scss --recursive styles.css",
     "sass-watch-mac": "node-sass --source-map-embed --watch *.scss --recursive styles.css",
-    "sass-watch-hp": "node-sass --source-map-embed --watch homepage.scss --recursive homepage.css",
-    "sass-watch-pages": "node-sass --source-map-embed --watch pages/styles.scss --recursive pages/styles.css",
-    "dev-hp": "concurrently npm:sass-watch-hp npm:browser-sync",
-    "dev-pages": "concurrently npm:sass-watch-pages npm:browser-sync",
     "dev": "concurrently npm:sass-watch npm:browser-sync",
     "dev-mac": "concurrently npm:sass-watch-mac npm:browser-sync",
-    "lint": "stylelint styles.scss ./**/*.scss"
+    "lint": "stylelint styles.scss styles/*.scss"
   },
   "repository": {
     "type": "git",

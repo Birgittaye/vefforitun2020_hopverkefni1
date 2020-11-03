@@ -4,12 +4,11 @@
 // latest recipes / video recipes
 .card {
   background-color: $color-pure-white;
-
   width: calc(33% - 1em);
 
   > * {
-  	margin-top: 0.5em;
-  	margin-bottom: 0.5em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
   }
 
   > p {
@@ -18,8 +17,8 @@
   }
 
   > img {
-  	width: 100%;
-  	height: auto;
+    height: auto;
+    width: 100%;
   }
 
   > div {

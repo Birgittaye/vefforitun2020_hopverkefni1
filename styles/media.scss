@@ -1,0 +1,73 @@
+@import 'config';
+
+// small screen
+@media (max-width: $small-screen-size) {
+  main * {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .to-hide {
+    display: none;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .flex-row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .flex-column {
+    text-align: center;
+  }
+
+  nav li {
+    font-size: 2em;
+    width: 100%;
+    //height: 2em;
+  }
+
+  .to-show {
+    display: block;
+  }
+
+  .announcement {
+    > img {
+      width: 90%;
+    }
+
+    > * {
+      margin-bottom: 1em;
+    }
+  }
+
+  .header-image-2 {
+    background: linear-gradient(to right, $color-black 25%, $color-black, transparent);
+    background-image: none;
+    background-size: 100% !important;
+  }
+
+  .header {
+    background-position: right;
+    background-size: 80em, 35em;
+    width: 100%;
+
+    > div {
+      justify-content: center;
+      margin-top: 5em;
+      max-width: 100%;
+
+      > div {
+        justify-content: flex-start !important;
+        max-width: 100%;
+      }
+    }
+  }
+
+  .fifty-fifty > * {
+    width: 50%;
+  }
+}

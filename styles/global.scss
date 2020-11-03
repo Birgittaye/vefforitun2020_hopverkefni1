@@ -2,25 +2,32 @@
 
 // entire page (generic tags)
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
-  font-size: $base-font-size;
-  font-family: 'Poppins';
   background-color: $color-pure-white;
+  font-family: 'Poppins', serif;
+  font-size: $base-font-size;
 }
-main > *{
-  padding: 0% 10%;
-}
-nav, header, footer > * {
+
+main > * {
   padding: 0% 10%;
 }
 
-h1, h2, h3, h4 {
-  font-family: 'Playfair Display';
+nav,
+header,
+footer > * {
+  padding: 0% 10%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Playfair Display', serif;
 }
 
 ul {
